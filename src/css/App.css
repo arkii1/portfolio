@@ -1,0 +1,28 @@
+:root {
+  --c-black: #222831;
+  --c-grey: #393E46;
+  --c-blue: #00ADB5;
+  --c-white: #EEEEEE;
+}
+
+.app {
+  background-color: var(--c-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100vw;
+  color: var(--c-white);
+  font-family: 'Open Sans';
+}
+
+.app > * {
+scroll-margin-top: 5rem;
+}
+
+.break {
+  width: 50vw;
+  border: none;
+  height: 2px;
+  background-color: var(--c-blue);
+}

@@ -1,0 +1,48 @@
+.footer {
+    width: 100vw;
+    background-color: var(--c-grey);
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.footer__button {
+    height: 40px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -125%);
+    background-color: var(--c-blue);
+    color: var(--c---c-white);
+    font-weight: 600;
+    transition: 0.1s;
+}
+
+.footer__button:hover {
+    cursor: pointer;
+}
+
+.footer__links {
+    padding: 0rem 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__links__email,
+.footer__links__linkedin,
+.footer__links__github {
+    color: var(--c-white);
+    transition: 0.1s;
+}
+
+.footer__links__email:hover,
+.footer__links__linkedin:hover,
+.footer__links__github:hover {
+    cursor: pointer;
+    color: var(--c-blue);
+    transform: scale(1.2);
+}

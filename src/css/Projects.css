@@ -1,0 +1,110 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    word-wrap: break-word;
+}
+
+.projects__header {
+    font-size: 2.2rem;
+}
+
+@media screen and (max-width: 499px) {
+    .projects__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects__card {
+        width: calc(100vw - 5rem);
+    }
+
+    .projects__card__img {
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 500px )and (max-width: 999px) {
+    .projects__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects__card {
+        width: min(25rem, calc(100vw - 5rem));
+    }
+
+    .projects__card__img {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .projects__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .projects__card {
+        width: 20rem;
+    }
+
+    .projects__card__img {
+        height: 225px;
+    }
+}
+
+.projects__grid {
+    display: grid;
+    gap: 3rem;
+}
+
+.projects__card {
+    box-shadow: 0px 4px 5px 3px rgba(0, 0, 0, 0.2);
+    background-color: var(--c-grey);
+}
+
+.projects__card__img {
+    background-color: var(--c-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projects__card__details {
+    background-color: transparent;
+    columns: var(--c-white);
+    padding: 1.5rem 3.5rem 2.5rem 1rem;
+    gap: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__card__details__name {
+    font-size: 1.5rem;
+}
+
+.projects__card__details__description {
+    font-size: 0.8rem;
+}
+
+.projects__card__details__links {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.projects__card__details__links__github,
+.projects__card__details__links__external {
+    transition: 0.1s;
+}
+
+.projects__card__details__links__github:hover,
+.projects__card__details__links__external:hover {
+    transform: scale(1.1);
+    color: var(--c-blue);
+    cursor: pointer;
+}

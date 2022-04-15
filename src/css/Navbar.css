@@ -1,0 +1,31 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: var(--c-grey);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    z-index: 10;
+    box-shadow: 0 3px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar > button {
+    font-size: 1rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--c-white);
+    margin: 1rem 0;
+    transition: 0.1s;
+}
+
+.navbar > button:hover {
+    color: var(--c-blue);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.navbar > button:active {
+    color: var(--c-white);
+}
