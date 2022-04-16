@@ -1,5 +1,5 @@
 import React from "react"
-import "../css/Projects.css"
+import "./Projects.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons"

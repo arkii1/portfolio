@@ -1,15 +1,15 @@
 import React from "react"
-import "../css/About.css"
+import "./About.css"
 
-import htmlLogo from "../Assets/images/htmlLogo.svg"
-import cssLogo from "../Assets/images/cssLogo.svg"
-import jsLogo from "../Assets/images/jsLogo.svg"
-import reactLogo from "../Assets/images/reactLogo.svg"
-import gitLogo from "../Assets/images/gitLogo.svg"
-import webpackLogo from "../Assets/images/webpackLogo.svg"
-import npmLogo from "../Assets/images/npmLogo.svg"
-import reduxLogo from "../Assets/images/reduxLogo.svg"
-import jestLogo from "../Assets/images/jestLogo.svg"
+import htmlLogo from "../../Assets/images/htmlLogo.svg"
+import cssLogo from "../../Assets/images/cssLogo.svg"
+import jsLogo from "../../Assets/images/jsLogo.svg"
+import reactLogo from "../../Assets/images/reactLogo.svg"
+import gitLogo from "../../Assets/images/gitLogo.svg"
+import webpackLogo from "../../Assets/images/webpackLogo.svg"
+import npmLogo from "../../Assets/images/npmLogo.svg"
+import reduxLogo from "../../Assets/images/reduxLogo.svg"
+import jestLogo from "../../Assets/images/jestLogo.svg"
 
 function About() {
   return (

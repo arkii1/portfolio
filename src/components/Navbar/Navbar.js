@@ -1,5 +1,5 @@
 import React from "react"
-import "../css/Navbar.css"
+import "./Navbar.css"
 
 function Navbar() {
   const onHomeClick = () => {
