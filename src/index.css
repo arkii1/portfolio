@@ -24,12 +24,12 @@ html, body {
 
 @font-face {
   font-family: 'Open Sans';
-  src: url(../Assets/fonts/OpenSans.ttf);
+  src: url('./Assets/fonts/OpenSans.ttf');
 }
 
 @font-face {
   font-family: 'Source Code Pro';
-  src: url(../Assets/fonts/SourceCodePro.ttf);
+  src: url('./Assets/fonts/SourceCodePro.ttf');
 }
 
 /*  Meyer reset below
