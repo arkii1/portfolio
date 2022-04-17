@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<header
+  className="header"
+>
+  <h1
+    className="header__h1"
+  >
+    Tommy Mapp 
+  </h1>
+  <p
+    className="header__secondary"
+  >
+    Full Stack Web Developer
+  </p>
+  <button
+    className="header__button"
+    onClick={[Function]}
+    type="button"
+  >
+    Get to know me
+  </button>
+</header>
+`;

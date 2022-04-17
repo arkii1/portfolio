@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<nav
+  className="navbar"
+>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Home
+  </button>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    About
+  </button>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Projects
+  </button>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Contact
+  </button>
+</nav>
+`;
