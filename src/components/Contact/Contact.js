@@ -10,7 +10,11 @@ function Contact() {
         If you have an oppurtunity to share, or would like or discuss anything,
         you can leave your details below.
       </p>
-      <form className="contact__form">
+      <form
+        className="contact__form"
+        action="https://formspree.io/f/xyyonozr"
+        method="POST"
+      >
         <input
           className="contact__form__name"
           type="text"
