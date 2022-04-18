@@ -32,14 +32,12 @@
     justify-content: space-between;
 }
 
-.footer__links__email,
 .footer__links__linkedin,
 .footer__links__github {
     color: var(--c-white);
     transition: 0.1s;
 }
 
-.footer__links__email:hover,
 .footer__links__linkedin:hover,
 .footer__links__github:hover {
     cursor: pointer;

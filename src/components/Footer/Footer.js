@@ -2,7 +2,6 @@ import React from "react"
 import "./Footer.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 function Footer() {
   const onReturnToTopClick = () => {
@@ -17,10 +16,6 @@ function Footer() {
     window.open("https://github.com/arkii1")
   }
 
-  const onMailClick = () => {
-    window.location.href = "mailto:tommy.mapp@hotmail.com"
-  }
-
   return (
     <footer className="footer">
       <button
@@ -31,11 +26,6 @@ function Footer() {
         Return To Top
       </button>
       <div className="footer__links">
-        <FontAwesomeIcon
-          className="footer__links__email"
-          icon={faEnvelope}
-          onClick={onMailClick}
-        />
         <FontAwesomeIcon
           className="footer__links__linkedin"
           icon={faLinkedin}
