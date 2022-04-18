@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6c9e3598.css",
-    "main.js": "/portfolio/static/js/main.801aa956.js",
+    "main.css": "/portfolio/static/css/main.858ff22c.css",
+    "main.js": "/portfolio/static/js/main.74662337.js",
     "static/media/OpenSans.ttf": "/portfolio/static/media/OpenSans.a42bbe687810bdc6e9e8.ttf",
     "static/media/SourceCodePro.ttf": "/portfolio/static/media/SourceCodePro.5613d62b54d755a00a78.ttf",
     "static/media/reactLogo.svg": "/portfolio/static/media/reactLogo.d580a556565454c43bb9f5276bcc7dce.svg",
@@ -14,11 +14,11 @@
     "static/media/htmlLogo.svg": "/portfolio/static/media/htmlLogo.c62cdb2882b9cb6f6624f90055627cae.svg",
     "index.html": "/portfolio/index.html",
     "static/media/npmLogo.svg": "/portfolio/static/media/npmLogo.8c0606a7c392a7d33d03e67c80d6f40a.svg",
-    "main.6c9e3598.css.map": "/portfolio/static/css/main.6c9e3598.css.map",
-    "main.801aa956.js.map": "/portfolio/static/js/main.801aa956.js.map"
+    "main.858ff22c.css.map": "/portfolio/static/css/main.858ff22c.css.map",
+    "main.74662337.js.map": "/portfolio/static/js/main.74662337.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c9e3598.css",
-    "static/js/main.801aa956.js"
+    "static/css/main.858ff22c.css",
+    "static/js/main.74662337.js"
   ]
 }
